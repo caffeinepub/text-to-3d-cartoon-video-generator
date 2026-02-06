@@ -1,0 +1,18 @@
+{
+  "frontend/src/App.tsx": "Main application component that wraps the app with ThemeProvider and renders the HomePage with a gradient background and toast notifications.",
+  "frontend/src/pages/HomePage.tsx": "Home page component that manages navigation between generator and gallery sections with a header, hero section, and dynamic content area.",
+  "frontend/src/components/Header.tsx": "Navigation header with branding, section tabs (Generator/Gallery), and authentication controls using Internet Identity.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying copyright notice with a heart icon and link to caffeine.ai.",
+  "frontend/src/components/HeroSection.tsx": "Hero banner section with gradient text, descriptive tagline, and featured hero image showcasing the app's purpose.",
+  "frontend/src/components/GeneratorSection.tsx": "Main generator interface managing state for prompt input, character/scene customization, audio settings, emotional tone, AI generation with toast notifications, and passes animation data with audio to preview component.",
+  "frontend/src/components/PromptInput.tsx": "Text input card with dual generation options - AI-powered automatic generation button and manual customization button, includes example prompts and loading states.",
+  "frontend/src/components/CharacterCustomizer.tsx": "Character customization panel with controls for character type, color picker, checkboxes for props and accessories, wrapped in a card component with proper styling.",
+  "frontend/src/components/SceneCustomizer.tsx": "Scene customization panel with environment selector, preview image, background element checkboxes, and sound effect descriptions for each environment wrapped in a card component.",
+  "frontend/src/components/AnimationPreview.tsx": "Animation preview card with synchronized audio/video playback controls, emotion badges, audio mute toggle, download functionality with proper blob URL handling, and visual indicators for audio features.",
+  "frontend/src/components/Scene3D.tsx": "Three.js 3D scene component that renders animated character geometry with environment-based colors, lighting, and proper THREE namespace usage.",
+  "frontend/src/components/GallerySection.tsx": "Gallery view displaying all user animations in a responsive grid with AI badges, audio indicators showing narration and sound effects, play and download buttons with reliable blob URL handling and toast notifications.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for fetching animations, user preferences, and AI animation generation with emotion and audio settings support, mutation support, and automatic cache invalidation.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring purple, pink, and blue gradient theme for both light and dark modes.",
+  "frontend/src/components/Scene3DCanvas.tsx": "Wrapper component for the Three.js Canvas that sets up camera, controls, and renders the 3D scene with character and environment.",
+  "frontend/src/components/AudioControlPanel.tsx": "Audio control panel component with toggles for narration and sound effects, volume sliders for each, emotional tone selector with visual icons, and informational text about audio synchronization."
+}
